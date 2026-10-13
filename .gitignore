@@ -1,0 +1,33 @@
+# Meson build directories (out-of-source, e.g. "bd")
+/bd/
+/bd-*/
+/build/
+/_build/
+builddir/
+
+# Meson generated files
+subprojects/
+meson-private/
+meson-logs/
+meson-info/
+compile_commands.json
+
+# Object and library files
+*.o
+*.a
+*.lo
+*.la
+*.so
+*.so.*
+*.gmo
+*.log
+
+# Editor / OS cruft
+*~
+*.swp
+*.swo
+
+# Python / docs
+venv/
+.venv/
+site/
